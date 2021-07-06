@@ -34,10 +34,10 @@ export class AppComponent implements OnInit {
   }
 
   private startHttpRequest = () => {
-    this.http.get('https://localhost:5001/api/chart')
-      .subscribe(res => {
-        console.log(res);
-      })
+    // this.http.get('https://localhost:8448/api/chart')
+    //   .subscribe(res => {
+    //     console.log(res);
+    //   })
   }
 
   public chartClicked = (event) => {
